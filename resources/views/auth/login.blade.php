@@ -35,57 +35,6 @@
         </form>
     </div>
 
-    <div class="card demo" style="width:800px;margin:auto auto">
-        <b>Akun demo</b>
-        <table>
-            <thead>
-                <tr>
-                    <th>Role</th>
-                    <th>Username</th>
-                    <th>Password</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Admin</td>
-                    <td><code>admin</code></td>
-                    <td><code>admin123</code></td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Pengajar</td>
-                    <td><code>ahmad@unsri.ac.id</code></td>
-                    <td><code>pengajar123</code></td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Peserta</td>
-                    <td><code>siti@unsri.ac.id</code></td>
-                    <td><code>peserta123</code></td>
-                    <td><span class="b ok">Terverifikasi</span></td>
-                </tr>
-                <tr>
-                    <td>Peserta</td>
-                    <td><code>budi@unsri.ac.id</code></td>
-                    <td><code>peserta123</code></td>
-                    <td><span class="b wr">Menunggu</span></td>
-                </tr>
-                <tr>
-                    <td>Peserta</td>
-                    <td><code>rina@univx.ac.id</code></td>
-                    <td><code>peserta123</code></td>
-                    <td><span class="b er">Ditolak</span></td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="mu" style="margin-top:10px">
-            Data dosen untuk uji pendaftaran: <code>0001018001</code>, <code>0007078007</code>, <code>0011118011</code> (lainnya di menu Database Dosen).
-        </p>
-        <form action="{{ route('demo.reset') }}" method="POST" onsubmit="return confirm('Reset semua data demo ke awal?')" style="margin-top:8px">
-            @csrf
-            <button type="submit" class="s d">Reset data demo</button>
-        </form>
-    </div>
+   
 </div>
 @endsection
