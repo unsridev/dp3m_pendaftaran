@@ -6,17 +6,9 @@
 <div class="auth">
     <div class="card">
         <div style="text-align:center">
-            <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
-                <g fill="#facc15" stroke="#a16207">
-                    <circle cx="32" cy="14" r="11"/>
-                    <circle cx="50" cy="26" r="11"/>
-                    <circle cx="44" cy="48" r="11"/>
-                    <circle cx="20" cy="48" r="11"/>
-                    <circle cx="14" cy="26" r="11"/>
-                </g>
-                <circle cx="32" cy="34" r="14" fill="#1d4ed8"/>
-                <circle cx="32" cy="34" r="6" fill="#fff"/>
-            </svg>
+        <img src="https://unsri.ac.id/images/lambang/979ca5b6-fc69-4efe-ac7b-82429127ef5b.png" 
+                 alt="Logo UNSRI" style="width:60px">
+
             <h1 style="font-size:20px;margin-top:10px">Sistem Pendaftaran Pelatihan</h1>
             <p class="mu">Universitas Sriwijaya</p>
         </div>
@@ -43,7 +35,7 @@
         </form>
     </div>
 
-    <div class="card demo">
+    <div class="card demo" style="width:800px;margin:auto auto">
         <b>Akun demo</b>
         <table>
             <thead>
